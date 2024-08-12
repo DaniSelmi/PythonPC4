@@ -1,6 +1,6 @@
-producto,fecha,cantidad,precio
-producto1,2023-01-01,2,100
-producto2,2023-01-02,1,200
+# producto,fecha,cantidad,precio
+# producto1,2023-01-01,2,100
+# producto2,2023-01-02,1,200
 
 import csv
 import sqlite3

@@ -1,5 +1,5 @@
 import random
-##pip install pyfliglet
+pip install pyfiglet
 from pyfiglet import Figlet
 
 def main():

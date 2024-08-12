@@ -25,7 +25,7 @@ class TablaMultiplicar:
                 lineas = file.readlines()
                 if 1 <= linea <= len(lineas):
                 print(f"Línea {linea} de {self.filename}: {lineas[linea - 1].strip()}")
-            else:
+                else:
                 print(f"La línea {linea} no existe en {self.filename}.")
         except FileNotFoundError:
             print(f"El archivo {self.filename} no existe.")
